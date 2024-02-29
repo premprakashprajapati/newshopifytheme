@@ -242,10 +242,10 @@
         font-family: var(--font-body-family);
         font-style: var(--font-body-style);
         font-weight: var(--font-body-weight);
-		background-color:red;
+		background-color:red!important;
       }
 .gradient{
-background-color:red;
+background-color:red!important;
 }
       @media screen and (min-width: 750px) {
         body {

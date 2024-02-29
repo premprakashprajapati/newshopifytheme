@@ -242,15 +242,11 @@
         font-family: var(--font-body-family);
         font-style: var(--font-body-style);
         font-weight: var(--font-body-weight);
-		background-color:red!important;
       }
-.gradient{
-background-color:red!important;
-}
+
       @media screen and (min-width: 750px) {
         body {
           font-size: 1.6rem;
-		  background-color:red;
         }
       }
     {% endstyle %}
@@ -357,6 +353,5 @@ background-color:red!important;
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-
   </body>
 </html>
